@@ -1,0 +1,30 @@
+Courtni Wong
+20228575
+Project 4: Music Player
+
+This project was super fun! We created our very own iTunes, pretty awesome!
+
+I worked with Rawan, India, and Brent on this project.
+
+Resources I used include the textbook for the selection sort and GUI stuff. I referred to our past projects/labs
+a lot for some of the methods I created in this lab that were similar to those I've written in the past. I also
+got a lot of help from the TAs and I went to office hours for Joshi. 
+
+Just a warning, my stop button kind of lags for a second or two after pressing it. But it works, I promise! :p
+
+I attempted all of the extra credit which was SUPER difficult :( The search button was difficult because I received
+a million errors and working with the table was pretty difficult. The XML format was definitely the hardest. 
+I couldn't figure out how to do it and after surfing the web, I found this site: http://xstream.codehaus.org/tutorial.html
+that gave a tutorial on how to format files to XML. The TA and I couldn't figure out how to make it work so we 
+literally imported a million .jar files in hopes that it would work. And it finally did. Yay! The XML formatted 
+document is created when the user presses the load library button. So there's a regular text file with the songs 
+called mp3.txt and another textfile called XMLmp3s.txt that has the songs in XML format. 
+
+I attempted the JFileChooser but it hampers with the GUI. If you uncomment the JFileChooser and JTextArea in the 
+beginning of my MPlayerPanel and run the program, a window will pop up allowing you to open the mp3s.txt and 
+XMLmp3s.txt files and view them in a separate screen. However, after exiting the window you will not be able to
+go back to the music player so you would have to comment the JFileChooser and JTextArea code to view the music
+player. Sorry for the trouble :( 
+
+
+
